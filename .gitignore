@@ -17,3 +17,25 @@ media/
 # IDE
 .vscode/
 .coverage
+
+# Ambiente virtual Python
+.venv/
+venv/
+
+# Banco de dados local
+db.sqlite3
+
+# Arquivos temporários Python
+__pycache__/
+*.py[cod]
+
+# Arquivos de ambiente e segurança
+.env
+.env.*
+
+# Configurações locais do editor
+.vscode/
+
+# Cobertura de testes
+.coverage
+htmlcov/
