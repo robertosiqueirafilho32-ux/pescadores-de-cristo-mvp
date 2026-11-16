@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pescadores de Cristo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f5f9;
+            margin: 0;
+            padding: 40px;
+            color: #243247;
+        }
+        h1 { color: #174b70; }
+        .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            min-width: 180px;
+            box-shadow: 0 2px 10px #00000010;
+        }
+        .numero {
+            font-size: 32px;
+            font-weight: bold;
+            color: #176b87;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pescadores de Cristo</h1>
+    <p>Sistema de Gestão de Beneficiários</p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Total de beneficiários</h3>
+            <div class="numero">{{ total_beneficiarios }}</div>
+        </div>
+
+        <div class="card">
+            <h3>Beneficiários ativos</h3>
+            <div class="numero">{{ beneficiarios_ativos }}</div>
+        </div>
+
+        <div class="card">
+            <h3>Beneficiários inativos</h3>
+            <div class="numero">{{ beneficiarios_inativos }}</div>
+        </div>
+    </div>
+</body>
+</html>
