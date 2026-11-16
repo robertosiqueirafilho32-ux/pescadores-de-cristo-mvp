@@ -1,0 +1,26 @@
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Django e banco de dados
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Variáveis de ambiente e segurança
+.env
+.env.*
+
+# IDE e editores
+.vscode/
+
+# Testes e cobertura
+.coverage
+htmlcov/
